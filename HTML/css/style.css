@@ -5293,6 +5293,24 @@ nav a#pull {
   height: 400px;
   object-fit: cover;
 }
+.gift-card {
+  font-size: 1.5rem;
+}
+
+.gift-card h5 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.gift-card sup {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.gift-card p {
+  font-size: 1.3rem;
+}
+
 
 
 

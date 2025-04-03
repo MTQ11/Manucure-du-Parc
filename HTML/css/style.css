@@ -2001,7 +2001,7 @@ ol.digit-list p {
 #hero-1 .caption-txt h2 {
   font-size: 5.25rem;
   line-height: 1.25;
-  font-weight: 400;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   margin-bottom: 30px;
@@ -3196,21 +3196,18 @@ h5.sbox-link a:after {
 
 .detail-price {
   margin: 0;
-  display: table;
+  display: flex;
 }
 
 .price-name {
   position: relative;
   display: table-cell;
-  width: 1%;
   white-space: nowrap;
   padding: 0 10px 0 0;
 }
 
 .price-dots {
   position: relative;
-  display: table-cell;
-  height: 3px;
   width: 98%;
   z-index: 1;
   background-image: radial-gradient(circle closest-side,#878889 99%,transparent 100%);
@@ -3220,10 +3217,9 @@ h5.sbox-link a:after {
 }
 
 .price-number {
-  display: table-cell;
-  width: 1%;
   padding: 0 0 0 10px;
   white-space: nowrap;
+  align-self: end;
 }
 
 .price-name h5,
@@ -3694,7 +3690,7 @@ h5.pbox-link a:after {
   ========================================================================== */
 
 #banner-1 {
-  background-image: url(../images/banner-10.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner-10.jpg);
   padding-top: 90px;
   padding-bottom: 90px;
 }
